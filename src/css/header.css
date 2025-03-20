@@ -1,0 +1,29 @@
+.page-header {
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  background: #fbfbfb;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
+.header-logo {
+}
+.menu-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 0;
+}
+.menu-icon {
+  display: block;
+  fill: #1b414b;
+}
