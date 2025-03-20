@@ -61,17 +61,19 @@ padding-top: 40px;
     .about-us-content {
         width: 704px;
         gap: 50px;
-        padding-top: 50px;
+        padding: 50px 0 0 0;
         align-items: start;
     }
 
     .about-us-title {
         width: 536px;
         font-size: 48px;
+        padding-left: 32px;
     }
 
     .about-us-list {
         width: 370px;
+        padding-left: 32px;
     }
         .about-us-text-one {
             font-size: 23px;
@@ -99,10 +101,12 @@ padding-top: 40px;
     .about-us-title {
         width: 530px;
         font-size: 48px;
+        padding-left: 50px;
     }
 
     .about-us-list {
         width: 354px;
+        padding-right: 50px;
     }
 
     .about-us-text-one {
@@ -112,6 +116,7 @@ padding-top: 40px;
 }
 
 @media screen and (min-width: 1440px) {
+  
     .about-us-content {
         width: 1340px;
     }
