@@ -1,0 +1,122 @@
+.section {}
+
+.about-us {}
+
+.about-us-content {
+    border-radius: 24px;
+        width: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-color: #fbfbfb;
+gap: 40px;
+padding-top: 40px;
+}
+
+.about-us-title {
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #1b414b;
+        width: 270px;
+}
+
+.about-us-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 275px;
+}
+
+.about-us-item {}
+
+.about-us-text-one {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #1b414b;
+       
+}
+
+.about-us-text-two {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16667;
+        letter-spacing: -0.02em;
+        color: #040306;
+        opacity: 0.4; 
+}
+
+.about-us-img {
+    border-radius: 24px;
+        width: 335px;
+        height: 395px;
+        display: block;
+}
+
+@media  screen and (min-width: 768px) {
+    .about-us-content {
+        width: 704px;
+        gap: 50px;
+        padding-top: 50px;
+        align-items: start;
+    }
+
+    .about-us-title {
+        width: 536px;
+        font-size: 48px;
+    }
+
+    .about-us-list {
+        width: 370px;
+    }
+        .about-us-text-one {
+            font-size: 23px;
+        }
+    
+        .about-us-text-two {
+            font-size: 13px;
+        }
+
+    .about-us-img {
+        width: 100%;
+        height: 470px;
+    }
+    
+}
+
+@media  screen and (min-width: 1280px) {
+    .about-us-content {
+        width: 1180px;
+       flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .about-us-title {
+        width: 530px;
+        font-size: 48px;
+    }
+
+    .about-us-list {
+        width: 354px;
+    }
+
+    .about-us-text-one {
+        font-size: 23px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us-content {
+        width: 1340px;
+    }
+
+    .about-us-list {
+        width: 380px;
+    }  
+}
