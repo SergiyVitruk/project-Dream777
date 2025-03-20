@@ -1,0 +1,36 @@
+<section class="rent-yacht">
+    <div class="">
+        <div class="image-container">
+            <picture>
+                <source srcset="/img/rentyacht/rentyacht-mob1x.jpg    1x,
+                                /img/rentyacht/rentyacht-mob@2x.jpg   2x" media="(max-width: 767px)" />
+
+                <source srcset="/img/rentyacht/rentyacht-tab1x.jpg    1x,
+                                /img/rentyacht/rentyacht-tab@2x.jpg   2x" media="(min-width: 768px)" />
+
+                <source srcset="/img/rentyacht/rentyacht-desk1x.jpg    1x,
+                                /img/rentyacht/rentyacht-desk@2x.jpg   2x" media="(min-width: 1158px)" />
+                <img src="/img/rentyacht/rentyacht-desk1x.jpg"         alt="yacht">
+            </picture>
+        </div>
+        <div class="form-container">
+            <h2 class="rent-yacht-title">Rent a yacht now</h2>
+            <div class="form">
+                <form action="#">
+                    <input class="form-input" id="user-name" type="text" name="user-name" placeholder="Full Name"
+                        required />
+                    <input class="form-input" id="email" type="email" name="email" placeholder="Email" required
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
+                    <input class="form-input" id="phone" type="tel" name="phone" placeholder="Phone number" required
+                        pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" />
+                    <textarea class="form-modal-textarea" id="user-comment" name="user-comment" rows=""gi
+                        placeholder="Comment"></textarea>
+                    <button class="button-form" type="submit">Send</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
