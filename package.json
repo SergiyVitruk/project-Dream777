@@ -1,11 +1,11 @@
 {
-  "name": "yachts_group_project",
+  "name": "project-Dream777",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/yachts_group_project/",
+    "build": "vite build --base=/project-Dream777/",
     "preview": "vite preview"
   },
   "devDependencies": {
