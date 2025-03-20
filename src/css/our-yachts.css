@@ -1,0 +1,107 @@
+.our-yachts {
+}
+.cont-out-yachts {
+  padding: 40px 20px;
+}
+.yachts-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-bottom: 40px;
+  color: #fbfbfb;
+}
+.yachts-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.yachts-item {
+  border-radius: 24px;
+  width: 334px;
+  height: 478px;
+  background: #fbfbfb;
+  padding: 16px;
+  padding-bottom: 32px;
+}
+.hidden-mobile {
+  display: none;
+}
+.yachts-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  align-items: center;
+  flex-direction: row;
+  width: 270px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+.cont-yachts-prise {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 114px;
+  width: 270px;
+  height: 109px;
+  margin: 0 auto;
+}
+.yachts-text-span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+}
+.yachts-list-list {
+}
+.yachts-item-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+}
+.yachts-list-prise {
+}
+.yachts-item-prise {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+}
+.btn-yachts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 14px 32px;
+  width: 141px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-top: 40px;
+}
