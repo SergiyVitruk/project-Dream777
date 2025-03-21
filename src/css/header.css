@@ -1,0 +1,34 @@
+.header-cont {
+  width: 335px;
+  height: 42px;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header {
+  width: 100%;
+  /* padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%); */
+}
+@media screen and (min-width: 768px) {
+  .header-cont {
+    width: 704px;
+    height: 48px;
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-cont {
+    width: 1080px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header-cont {
+    width: 1240px;
+  }
+}

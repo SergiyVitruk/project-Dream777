@@ -1,13 +1,13 @@
 body {
-  position: relative;
 }
 .hero {
-  background-color: #0e1823;
   background-image: url('/img/hero-img/mob-background.jpg');
   max-width: 375px;
+  height: 812px;
   margin: 0 auto;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 767px) and (min-resolution: 2x) {
   .hero {
@@ -15,7 +15,7 @@ body {
   }
 }
 .hero-cont {
-  padding-top: 198px;
+  padding-top: 260px;
   padding-bottom: 243px;
 }
 .hero-title {
@@ -65,11 +65,12 @@ body {
   .hero {
     background-image: url('/img/hero-img/tab-background.jpg');
     max-width: 768px;
+    height: 962px;
   }
 
   .hero-cont {
-    padding-top: 200px;
-    padding-bottom: 215px;
+    padding-top: 280px;
+    padding-bottom: 315px;
   }
   .hero-title {
     font-size: 70px;
@@ -100,10 +101,11 @@ body {
   .hero {
     background-image: url('/img/hero-img/desk-background.jpg');
     max-width: 1280px;
+    height: 800px;
   }
   .hero-cont {
-    padding-top: 155px;
-    padding-bottom: 180px;
+    padding-top: 235px;
+    padding-bottom: 280px;
   }
   .hero-title {
     font-size: 80px;
