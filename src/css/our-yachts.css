@@ -182,9 +182,9 @@
   .yachts-list {
     gap: 25px;
   }
-}
-.yachts-item {
-  width: calc((100% - 50px) / 3);
+  .yachts-item {
+    width: calc((100% - 50px) / 3);
+  }
 }
 @media screen and (min-width: 1440px) {
   .cont-out-yachts {
