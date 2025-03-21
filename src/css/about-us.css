@@ -3,10 +3,9 @@
   max-width: 335px;
   height: 300px;
   margin: 0 auto;
-}
-.about-us {
   margin-top: -59px;
 }
+
 @media screen and (min-width: 768px) {
   .about-us-cont {
     max-width: 704px;
