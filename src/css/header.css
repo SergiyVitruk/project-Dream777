@@ -147,36 +147,3 @@
     max-width: 1240px;
   }
 }
-
-/* .header-cont {
-  max-width: 335px;
-  height: 42px;
-  background-color: antiquewhite;
-  margin: 0 auto;
-} */
-/* .header {
-  padding-top: 20px;
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-@media screen and (min-width: 768px) {
-  .header {
-    padding-top: 32px;
-  }
-  .header-cont {
-    max-width: 704px;
-    height: 48px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .header-cont {
-    max-width: 1080px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .header-cont {
-    max-width: 1240px;
-  }
-} */
