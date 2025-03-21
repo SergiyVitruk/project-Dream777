@@ -1,3 +1,7 @@
+.reviews-wrap {
+    max-width: 1240px;
+}
+
 .reviews-title {
     font-weight: 500;
         font-size: 48px;
@@ -26,12 +30,8 @@
 .reviews-list {
     display: flex;
     list-style-type: none;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 32px;
-    align-items: center;
-    justify-content: center;
-    max-width: 1240px;
+    margin-left: 100px;
 }
 
 .customers-photo {
