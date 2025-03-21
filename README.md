@@ -3,7 +3,7 @@
 3	Liliia Simbukhova	https://github.com/Sliliia85
 4	Liudmyla Belikova	https://github.com/liudmyla21-belikova
 5	Maryna Bolkhovitina https://github.com/Maryna-bolkhovitina
-6	Oleh Zavorotko		
+6	Oleh Zavorotko	https://github.com/osibtcm	
 7	Sergiy Vitruk	https://github.com/SergiyVitruk
 8	Yuliia Ponomarjova https://github.com/Yuliia2006
 9	Анастасія Коханець https://github.com/Anastasia-goit
