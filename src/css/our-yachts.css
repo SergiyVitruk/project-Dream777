@@ -2,6 +2,7 @@
   padding: 40px 20px;
 }
 .yachts-title {
+  display: flex;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -36,6 +37,7 @@
   padding-top: 32px;
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
   margin: 0 auto;
+  gap: 33px;
   margin-bottom: 16px;
   align-items: center;
   flex-direction: row;
@@ -106,13 +108,25 @@
     padding: 75px 32px;
   }
   .yachts-title {
-    font-weight: 500;
+    padding-left: 27px;
+    padding-right: 25px;
     font-size: 48px;
-    line-height: 1;
-    letter-spacing: -0.02em;
     text-align: center;
-    color: #fbfbfb;
   }
+  .yachts-text {
+    max-width: 272px;
+    gap: 22px;
+    flex-shrink: 1; /* Дозволяє тексту стискатися */
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .yachts-text-span {
+    flex-shrink: 0;
+  }
+
   .yachts-list {
     gap: 32px;
   }
@@ -125,6 +139,24 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .yachts-title {
+    width: 714px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+  .cont-out-yachts {
+    padding: 75px 50px;
+  }
+  .hidden-mobile-tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .yachts-list {
+    gap: 25px;
+  }
+  .yachts-item {
+    width: calc((100% - 50px) / 3);
+  }
 }
 @media screen and (min-width: 1440px) {
 }
