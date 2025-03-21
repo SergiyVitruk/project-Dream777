@@ -15,10 +15,12 @@
   transform: translateX(-50%);
 }
 @media screen and (min-width: 768px) {
+  .header {
+    padding-top: 32px;
+  }
   .header-cont {
     max-width: 704px;
     height: 48px;
-    margin-top: 32px;
   }
 }
 @media screen and (min-width: 1280px) {
