@@ -1,37 +1,39 @@
-.reviews-wrap {
-    max-width: 1240px;
+.reviews-section {
+    padding: 80px 20px;
 }
-
+.reviews-wrap {
+    max-width: 100%;
+}
 .reviews-title {
     font-weight: 500;
-        font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: #fbfbfb;
-        max-width: 854px;
-        margin: 0 auto;
-        margin-bottom: 25px;
+    font-size: 28px; 
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    max-width: 335px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
-
 .reviews-text {
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.29;
+        font-size: 12px;
+        line-height: 1.17;
         letter-spacing: -0.02em;
         text-align: center;
         color: #fbfbfb;
         opacity: 0.4;
-        max-width: 571px;
+        max-width: 335px;
         margin: 0 auto;
-        margin-bottom: 75px;
+        margin-bottom: 40px;
 }
 
 .reviews-list {
-    display: flex;
     list-style-type: none;
-    gap: 32px;
-    margin-left: 100px;
+}
+
+.hidden {
+    display: none;
 }
 
 .customers-photo {
@@ -39,7 +41,7 @@
 }
 
 .reviews-item {
-    width: calc((100% - 64px) / 3);
+    width: 100%;
     background-color: #fbfbfb;
     border-radius: 24px;
 }
@@ -66,6 +68,11 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: #040306;
+        margin-bottom: 8px;
+}
+
+.customers-descr {
+    display: flex;
 }
 
 .customers-descr {
@@ -75,4 +82,35 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: rgba(4, 3, 6, 0.4);
+}
+
+@media sreen (min-width:768px) {
+.reviews-section {
+        padding: 150px 32px;
+    }
+    .reviews-title {
+        font-size: 48px;
+        max-width: 704px;
+    }
+
+    .reviews-text {
+        font-size: 14px;
+        line-height: 1.29;
+        max-width: 571px;
+        margin-bottom: 75px;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .hidden-tab {
+        display: none;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+    }
 }
