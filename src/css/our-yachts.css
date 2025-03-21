@@ -46,6 +46,15 @@
   text-transform: uppercase;
   color: #1b414b;
 }
+.yachts-text-span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+}
 .cont-yachts-prise {
   display: flex;
   align-items: flex-start;
@@ -56,15 +65,6 @@
   margin: 0 auto;
   margin-right: 16px;
   margin-left: 16px;
-}
-.yachts-text-span {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #040306;
-  opacity: 0.4;
 }
 .yachts-list-list {
   display: flex;
@@ -131,20 +131,26 @@
     padding-right: 25px;
     font-size: 48px;
     text-align: center;
+    gap: 22px;
   }
-  .yachts-text {
+  .yachts-text-title {
     font-size: 16px;
     line-height: 1.2;
-    max-width: 272px;
     padding-left: 0;
     padding-right: 0;
     white-space: nowrap; /* Забороняє перенос тексту */
     overflow: hidden; /* Ховає текст, що виходить за межі контейнера */
     text-overflow: ellipsis; /* Додає три крапки замість прихованого тексту */
+    display: block; /* Дозволяє застосування цих властивостей  ЦЕ Я ДОДАВ*/
   }
   .yachts-text-span {
+    white-space: nowrap;
     font-size: 13px;
     line-height: 1.18;
+    margin-left: 22px;
+  }
+  .cont-yachts-prise {
+    gap: 104px;
   }
   img {
     width: 100%;
@@ -175,9 +181,12 @@
     margin: 0 auto;
     margin-bottom: 75px;
   }
-
-  .yachts-text {
-    min-width: 313px;
+  .yachts-text-span {
+    white-space: nowrap;
+    margin-left: 33px;
+  }
+  .yachts-text-title {
+    min-width: 177px;
   }
   .cont-yachts-prise {
     gap: 145px;
@@ -198,6 +207,9 @@
   }
   .yachts-text {
     min-width: 328px;
+  }
+  .yachts-text-span {
+    margin-left: 48px;
   }
   .cont-yachts-prise {
     gap: 160px;
