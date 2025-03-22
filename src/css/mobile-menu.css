@@ -1,3 +1,4 @@
+
 /* Контейнер мобільного меню */
 .mobile-menu {
     position: fixed;
@@ -110,6 +111,7 @@
     transform: translateX(-50%);
     width: 100%;
 }
+
 
     .social-icon svg {
         width: 24px;
