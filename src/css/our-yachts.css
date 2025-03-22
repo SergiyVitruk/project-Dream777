@@ -32,10 +32,12 @@
 .yachts-text {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
   padding-top: 32px;
+  padding-bottom: 16px;
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
   margin: 0 auto;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 16px;
   align-items: center;
   flex-direction: row;
@@ -97,23 +99,19 @@
   color: #040306;
 }
 .btn-yachts {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
+  display: block;
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
   padding: 14px 32px;
-  width: 141px;
+  width: 142px;
   height: 46px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  cursor: pointer;
   background-color: transparent;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -166,10 +164,11 @@
   }
   .btn-yachts {
     padding: 16px 40px;
-    width: 179px;
+    width: 180px;
     height: 52px;
     font-size: 18px;
     line-height: 1.1;
+    margin-top: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
