@@ -1,7 +1,5 @@
-
-.header-btn-link,
-.icon-header {
-  cursor: url('../img/cursor-pointer.png') 10 10, pointer;
+a {
+  cursor: url('/img/cursor-pointer.png') 10 10, pointer;
 }
 .header {
   position: absolute;
@@ -58,7 +56,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .header {
     padding-top: 32px;
   }
@@ -68,7 +65,6 @@
     padding-left: 28px;
     padding-right: 28px;
     height: 48px;
-
   }
   .menu-btn {
     display: none;
@@ -128,7 +124,6 @@
   }
   .header-btn-link:hover,
   .header-btn-link:focus {
-
     background-color: #1b414b;
   }
   .icon-header {
@@ -140,7 +135,6 @@
 
     background-color: transparent;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-
   }
   .icon-header:focus,
   .icon-header:hover {
@@ -150,18 +144,14 @@
 
 @media screen and (min-width: 1280px) {
   .header-container {
-
     max-width: 1080px;
     padding-left: 30px;
     padding-right: 30px;
-
   }
 }
 
 @media screen and (min-width: 1440px) {
   .header-container {
-
     max-width: 1240px;
-
   }
 }
