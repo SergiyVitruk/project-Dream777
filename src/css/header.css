@@ -1,6 +1,5 @@
-.header-btn-link,
-.icon-header {
-  cursor: url('../img/cursor-pointer.png') 10 10, pointer;
+a {
+  cursor: url('/img/cursor-pointer.png') 10 10, pointer;
 }
 .header {
   position: absolute;
