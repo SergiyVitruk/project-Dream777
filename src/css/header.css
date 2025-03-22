@@ -18,6 +18,7 @@
   border-radius: 8px;
   background: #fbfbfb;
   max-width: 335px;
+  height: 42px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -63,6 +64,7 @@
     max-width: 768px;
     padding-left: 28px;
     padding-right: 28px;
+    height: 48px;
   }
   .menu-btn {
     display: none;
