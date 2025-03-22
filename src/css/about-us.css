@@ -68,6 +68,7 @@
   .about-us-title {
     max-width: 570px;
     font-size: 48px;
+    margin-bottom: 50px;
   }
 
   .about-us-list {
@@ -102,6 +103,7 @@
   .about-us-title {
     max-width: 570px;
     font-size: 48px;
+    margin-bottom: 0;
   }
 
   .about-us-list {
