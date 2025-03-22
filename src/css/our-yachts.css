@@ -1,5 +1,8 @@
+a {
+  cursor: url('../img/cursor-pointer.png') 10 10, pointer;
+}
 .cont-out-yachts {
-  padding: 40px 20px;
+  padding: 0 20px;
 }
 .yachts-title {
   display: flex;
@@ -102,8 +105,9 @@
   display: block;
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
-  padding: 14px 32px;
-  width: 142px;
+  padding: 14px 0;
+  text-align: center;
+  width: 141px;
   height: 46px;
   font-weight: 500;
   font-size: 14px;
@@ -111,9 +115,9 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   background-color: transparent;
-  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
-  margin: 0 auto;
-  margin-top: 40px;
+
+  margin: 40px auto 0 auto;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 .btn-yachts:hover,
 .btn-yachts:focus {
@@ -122,7 +126,7 @@
 }
 @media screen and (min-width: 768px) {
   .cont-out-yachts {
-    padding: 75px 32px;
+    padding: 0 32px;
   }
   .yachts-title {
     padding-left: 27px;
@@ -163,17 +167,17 @@
     width: calc((100% - 32px) / 2);
   }
   .btn-yachts {
-    padding: 16px 40px;
-    width: 180px;
+    padding: 16px 0;
+    width: 179px;
     height: 52px;
     font-size: 18px;
     line-height: 1.1;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
   }
 }
 @media screen and (min-width: 1280px) {
   .cont-out-yachts {
-    padding: 75px 49px;
+    padding: 0 49px;
   }
   .yachts-title {
     width: 714px;
@@ -202,7 +206,7 @@
 }
 @media screen and (min-width: 1440px) {
   .cont-out-yachts {
-    padding: 75px 100px;
+    padding: 0 100px;
   }
   .yachts-text-span {
     margin-left: 48px;
