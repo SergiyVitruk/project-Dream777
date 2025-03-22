@@ -21,6 +21,8 @@ p {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 input {
@@ -31,4 +33,5 @@ button {
   font-family: inherit;
   color: currentColor;
   cursor: pointer;
+  border: none;
 }
