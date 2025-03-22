@@ -1,0 +1,44 @@
+<section id="rent-yacht" class="rent-section container">
+    <div class="container-rent ">
+        <div class="rent-image">
+            <picture>
+                <source srcset="/img/rentyacht/rentyacht-mob1x.jpg    1x,
+                        /img/rentyacht/rentyacht-mob@2x.jpg   2x" media="(max-width: 767px)" />
+
+                <source srcset="/img/rentyacht/rentyacht-tab1x.jpg    1x,
+                        /img/rentyacht/rentyacht-tab@2x.jpg   2x" media="(min-width: 768px)" />
+
+                <source srcset="/img/rentyacht/rentyacht-desk12801x.jpg    1x,
+                        /img/rentyacht/rentyacht-desk1280@2x.jpg   2x" media="(min-width: 1280pxpx)" />
+
+                <source srcset="/img/rentyacht/rentyacht-desk14401x.jpg    1x,
+                        /img/rentyacht/rentyacht-desk1440@2x.jpg   2x" media="(min-width: 1440px)" />
+
+                <img src="/img/rentyacht/rentyacht-desk12801x.jpg" srcset="/img/rentyacht/rentyacht-desk1280@2x.jpg"
+                    alt="Luxury Yacht">
+            </picture>
+        </div>
+        <div class="rent-content">
+            <h2 class="rent-title">Rent a yacht now</h2>
+            <form class="rent-form">
+                <label for="user-name">
+                <input class="form-input form-text" type="text" name="user-name" id="user-name" placeholder="Full Name" required>
+                </label>
+                <label for="email">
+                <input class="form-input form-text" type="email" name="email" id="email" placeholder="Email" required
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                </label>
+                <label for="phone">
+                    <input class="form-input form-text" type="tel" name="phone" id="phone" placeholder="Phone number" required
+                    pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$">
+                </label>
+                <label for="user-comment">
+                    <textarea class="form-textarea form-text" id="user-comment" name="user-comment" rows="6"
+                    placeholder="Comment"></textarea>
+                </label>
+                <button class="button-form button-text" type="submit">Send</button>
+            </form>
+        </div>
+        
+    </div>
+</section>
