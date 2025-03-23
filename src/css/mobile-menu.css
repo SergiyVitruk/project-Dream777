@@ -91,10 +91,9 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 9px;
-  font-weight: regular;
+  font-weight: 400;
   border-radius: 8px;
   text-align: center;
-  transition: background 0.3s ease;
   margin-bottom: 4px;
   align-items: center;
 }

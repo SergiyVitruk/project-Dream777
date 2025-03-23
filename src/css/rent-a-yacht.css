@@ -45,11 +45,12 @@
 }
 
 .form-textarea {
+  width: 100%;
   resize: none;
 }
 
 .form-input {
-  width: 335px;
+  width: 100%;
   height: 42px;
 }
 
@@ -95,7 +96,8 @@
     display: block;
   }
 
-  .rent-form {
+  .form-input {
+    width: 335px;
   }
 
   .form-textarea {
@@ -106,8 +108,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .rent-section {
-  }
   .container-rent {
     gap: 100px;
     align-items: center;
@@ -125,9 +125,6 @@
   .rent-title {
     font-size: 48px;
     margin: 0 auto 50px auto;
-  }
-
-  .rent-form {
   }
 
   .form-input {
@@ -160,8 +157,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .rent-section {
-  }
   .container-rent {
     flex-direction: row;
     gap: 50px;
@@ -189,16 +184,9 @@
     font-size: 48px;
     text-align: left;
   }
-
-  .rent-form {
-  }
 }
 
 @media screen and (min-width: 1440px) {
-  .container-rent {
-  }
-  .rent-image {
-  }
   .rentyacht-img {
     width: 768px;
   }
