@@ -1,5 +1,5 @@
-.reviews-section {
-  padding: 80px 20px;
+.section {
+  padding: 80px 0;
 }
 
 .reviews-wrap {
@@ -84,8 +84,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reviews-section {
-    padding: 150px 32px;
+  .section {
+    padding: 150px 0;
   }
 
   .reviews-title {
@@ -113,20 +113,27 @@
     gap: 32px;
     justify-content: center;
   }
+  .reviews-item {
+    max-width: 336px;
+  }
 
   .reviews-wrap {
-    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .reviews-section {
-    padding: 150px 50px;
-    max-width: 1280px;
+    padding: 150px 0;
   }
 
   .reviews-title {
     max-width: 854px;
+  }
+  .reviews-list {
+    gap: 26px;
+  }
+  .reviews-item {
+    max-width: 376px;
   }
 
   .hidden-tab {
@@ -135,8 +142,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .reviews-wrap {
+  }
   .reviews-section {
-    padding: 150px 100px;
-    max-width: 1440px;
+    padding: 150px 0;
   }
 }
