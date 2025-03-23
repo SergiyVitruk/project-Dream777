@@ -24,7 +24,8 @@
 
 /* Заголовок меню (Логотип + кнопка закриття) */
 .mobile-menu__header {
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   height: 42px;
   margin: 0 auto;
   display: flex;
@@ -122,6 +123,12 @@
 }
 
 /* Медіаправило */
+@media screen and (max-width: 374px) {
+  .mobile-menu {
+    padding: 20px 10px 40px 10px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
