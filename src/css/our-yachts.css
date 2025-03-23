@@ -18,10 +18,6 @@ button {
   text-align: center;
   color: #fbfbfb;
 }
-.yachts-list {
-  display: flex;
-  flex-wrap: wrap;
-}
 .yachts-item {
   border-radius: 24px;
   background: #fbfbfb;
@@ -160,6 +156,8 @@ button {
     width: 100%;
   }
   .yachts-list {
+    display: flex;
+    flex-wrap: wrap;
     gap: 32px;
   }
   .hidden-mobile {
@@ -214,5 +212,11 @@ button {
   }
   .cont-yachts-prise {
     gap: 160px;
+  }
+  .yachts-list {
+    gap: 32px;
+  }
+  .yachts-item {
+    width: calc((100% - 64px) / 3);
   }
 }
