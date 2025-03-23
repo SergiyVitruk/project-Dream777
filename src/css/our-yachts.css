@@ -9,17 +9,13 @@ button {
   padding: 0 20px;
 }
 .yachts-title {
-  display: flex;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.02em;
-  align-items: center;
+  max-width: 319px;
+  margin: 0 auto 40px auto;
   text-align: center;
-  margin: 0 auto;
-  margin-right: 18px;
-  margin-left: 18px;
-  margin-bottom: 40px;
   color: #fbfbfb;
 }
 .yachts-list {
@@ -136,11 +132,10 @@ button {
     padding: 0 32px;
   }
   .yachts-title {
-    padding-left: 27px;
-    padding-right: 25px;
+    max-width: 645px;
     font-size: 48px;
     text-align: center;
-    gap: 22px;
+    margin-bottom: 75px;
   }
   .yachts-text-title {
     font-size: 16px;
@@ -187,8 +182,7 @@ button {
     padding: 0 49px;
   }
   .yachts-title {
-    width: 714px;
-    margin: 0 auto;
+    max-width: 714px;
     margin-bottom: 75px;
   }
   .yachts-text-span {
