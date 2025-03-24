@@ -5,7 +5,7 @@
 
 .container-rent {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 80px;
 }
 
@@ -84,14 +84,6 @@
 }
 
 @media screen and (min-width: 375px) {
-  .rent-image {
-    order: 3;
-  }
-
-  .rent-content {
-    order: 1;
-  }
-
   .rent-title {
     display: block;
   }
@@ -111,15 +103,6 @@
   .container-rent {
     gap: 100px;
     align-items: center;
-  }
-
-  .rent-image {
-    order: 3;
-  }
-
-  .rent-content {
-    order: 1;
-    flex-direction: column;
   }
 
   .rent-title {
