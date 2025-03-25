@@ -14,7 +14,9 @@
   max-width: 295px;
   margin-bottom: 40px;
 }
-
+.one-item {
+  max-width: 238px;
+}
 .advantages-header {
   font-weight: 500;
   font-size: 28px;
@@ -71,6 +73,7 @@
     width: calc((100% - 32px) / 2);
     margin: 0;
   }
+
   .advantages-header {
     font-size: 32px;
   }
@@ -78,6 +81,9 @@
   .advantages-text {
     font-size: 13px;
     max-width: 275px;
+  }
+  .one-item {
+    max-width: 220px;
   }
   .advantages-header::after {
     max-width: 304px;
@@ -111,7 +117,7 @@
     width: 100%;
     margin: 18px auto;
     border-radius: 18px;
-    max-width: 280px;
+
     height: 2px;
     background: rgba(251, 251, 251, 0.1);
   }
