@@ -63,19 +63,19 @@ document.addEventListener('DOMContentLoaded', function () {
   // 2. Показать лого после появления хедера
   setTimeout(() => {
     logo.classList.add('watch-logo');
-  }, 400); // Ждём 300ms после появления хедера
+  }, 200); // Ждём 300ms после появления хедера
 
   // 3. Последовательное появление кнопок
   links.forEach((link, index) => {
     setTimeout(() => {
       link.classList.add('show-link');
-    }, 700 + index * 200); // Каждая кнопка появляется через 200ms после предыдущей
+    }, 700 + index * 100); // Каждая кнопка появляется через 200ms после предыдущей
   });
 
   // 4. Последовательное появление иконок
   icons.forEach((icon, index) => {
     setTimeout(() => {
       icon.classList.add('show-svg');
-    }, 1300 + index * 200); // Каждая иконка появляется через 200ms после предыдущей
+    }, 1300 + index * 100); // Каждая иконка появляется через 200ms после предыдущей
   });
 });
