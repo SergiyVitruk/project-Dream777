@@ -18,8 +18,6 @@
 
 - 🎨 Modern and responsive UI
 - ⚡ High performance with Vite
-- 🔍 Search and filtering
-- 🛒 Shopping cart with state persistence
 - 🔧 Scalable architecture for future features
 
 ---
