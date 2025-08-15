@@ -10,7 +10,7 @@
 
 ## 📸 Demo
 
-🔗 **Live Demo**: https://project-dream777.vercel.app/
+🔗 **Live Demo**: https://sergiyvitruk.github.io/project-Dream777/
 
 ---
 
